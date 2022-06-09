@@ -48,7 +48,7 @@ void MainWindow::createQsplineSeries()
     axisY->setRange(0,40);
 
     //创建光滑曲线序列，并添加数据
-    QSplineSeries *splineSer = new QSplineSeries;//ddddd
+    QSplineSeries *splineSer = new QSplineSeries;
     splineSer->setName(QStringLiteral("最高温"));
 
     for(int i =0;i<ui->tableWidget->rowCount();i++)
